@@ -139,14 +139,16 @@ q{
 }
 
 /*footer*/
-.foot{
+footer{
     height:100px;
-    background-color: var(--hero-bg-color);
-    text-align: center;
     width:100%;
+    background-color: var(--hero-bg-color);
+    display:flex; 
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
-footer p{
-    color:var(--hero-main-font-color);
-    
+.copy{
+    color:var(--hero-main-font-color); 
 }
