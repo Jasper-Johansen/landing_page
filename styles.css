@@ -1,5 +1,5 @@
 :root{
-    --font-used:"Roboto" sans-serif;
+    --font-used:"Roboto", sans-serif;
     --hero-bg-color:#1f2937;
     --hero-main-font-color: #f9faf8;
     --hero-sec-font-color:#e5e7eb;
@@ -8,6 +8,7 @@
 
 html{
     margin:0;
+    font-family: var(--font-used);
     padding:0;
 }
 
@@ -40,10 +41,14 @@ h1{
 }
 
 .sign-up1{
-    height:40px;
-    width:100px;
-    border-radius:15%;
+    height:30px;
+    width:120px;
+    border-radius:5px;
     border:none;
+    background-color: blue;
+    color:#e5e7eb;
+    
+    
 }
 
 .text-container{
@@ -65,18 +70,15 @@ h1{
     color:var(--hero-logo-font-color);
 }
 
-.sign-up1{
-    background-color: blue;
-    color:#e5e7eb;
-}
 
 /*section1*/
-.sec1{
-    
+h2{
+    text-align:center;
 }
 
-.boxes{
+.boxes-div{
     display: flex;
+    padding: 100px;
 }
 
 .box1{
@@ -87,23 +89,31 @@ h1{
 .sec2{
     padding:20px 50px 20px 50px;
     background:var(--hero-sec-font-color);
+    height:500px;
+    display:flex;
+    flex-direction: column;
     
 }
 
 .sec2>p{
     text-align: right;
+    font-weight: bold;
 }
 
 q{
-    font-style: italic;
+    padding:120px 0 0 0;
+    font: italic 36px "Roboto";
+    color: #1f2937;
+    text-align: center;
 }
 
 /*section3*/
 .sec3{
-    background-color: #22569e;
+    background-color: #3882f6;
     padding:20px;
-    margin:50px;
+    margin:50px 80px 50px 80px;
     color:var(--hero-main-font-color);
+    border-radius: 5px;
 }
 
 .sign-up{
@@ -113,15 +123,21 @@ q{
 }
 
 .sign-up2{
-    background-color: #22569e;
+    background-color: #3882f6;
     color:var(--hero-logo-font-color);
     border:2px solid var(--hero-logo-font-color);
     height:40px;
     width:100px;
-    border-radius:15%;
-    
-
+    border-radius:5px;
+    position: relative;
+    right:100px;
 }
+
+.call-to-action{
+    position: relative;
+    left:100px;
+}
+
 /*footer*/
 .foot{
     height:100px;
