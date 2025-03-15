@@ -17,21 +17,33 @@ html{
     height:40%;
     
 }
+ .logo{
+    width:10%;
+    margin:0 0 0 100px;
+ }
+
+.hero-header, .top-logo{
+   display:flex;
+}
 
 .top-logo{
-   display:flex;
-   align-items: flex-end;
-   justify-content:space-between;
+   align-items: center;
+   gap:10px;
+   padding-top: 10px;
 }
 
 .links{
-    border:2px solid black;
+    padding-right: 100px;
     display:flex;
+    width: 200px;
+    color:var(--hero-sec-font-color);
+    gap:10px;
 }
 
 [alt*="placeholder"]{
-    width:100px;
-
+    width:50%;
+    padding:100px;
+    overflow:hidden;
 }
 
 h1{
@@ -52,7 +64,7 @@ h1{
 }
 
 .text-container{
-    padding:100px;
+    padding:100px 10px 100px 100px;
 }
 
 .text-container > p{
@@ -67,6 +79,7 @@ h1{
 
 .header-logo{
     font-size:24px;
+    
     color:var(--hero-logo-font-color);
 }
 
