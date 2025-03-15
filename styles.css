@@ -33,8 +33,16 @@ html{
     padding-right: 120px;
     display:flex;
     width: 200px;
-    color:var(--hero-sec-font-color);
     gap:10px;
+}
+
+a{
+    text-decoration: none;
+    color:var(--hero-sec-font-color);
+}
+
+a:hover{
+    color: chartreuse;
 }
 
 [alt*="placeholder"]{
