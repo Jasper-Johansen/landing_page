@@ -172,6 +172,11 @@ q{
     left:100px;
 }
 
+:is(.sign-up1,.sign-up2):hover{
+    background-color: chartreuse;
+    color: black;
+}
+
 /*footer*/
 footer{
     height:100px;
